@@ -12,7 +12,7 @@
                 itemCount
                 caseCount
 
-    for Scan barcode itemCount = 50
+    for Scan barcode itemCount === 50
         
         if item count is <= 50
             item + itemCount = itemCount
