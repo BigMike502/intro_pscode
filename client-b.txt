@@ -20,7 +20,7 @@ Open Store application
             for itemlocation === CustomerLocation
                 Look up store diagramDB to item location
                 give direction to item
-                if customer goes right way
+                if customer gets to item
                     display shelf item is on
                 else 
                     continue for loop.
