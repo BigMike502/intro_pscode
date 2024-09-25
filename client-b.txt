@@ -7,3 +7,23 @@
 **Task:** Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
 
 **Hints:** Loops, Variables
+
+Open Store application
+    Open Tab for mapping application
+        Variable customerSearch
+        Variable customerLocation === current Wifi hotspot pings
+        Populate searchbox = customerSearch 
+        Populate Search button * Next to Searchbox *
+    
+    if Searchbtn pressed
+        itemlocation = Item cords from itemDB of customerSearch
+            for itemlocation === CustomerLocation
+                Look up store diagramDB to item location
+                give direction to item
+                if customer goes right way
+                    display shelf item is on
+                else 
+                    continue for loop.
+
+    else wrong entey or no entry
+        print : Enter in Valid item to search box. 
