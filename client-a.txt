@@ -32,9 +32,18 @@ Start Program
         variable guessesLeft = 3
         variable playerGuess
         print : Enter your guess : █ * players guess with pass into playerGuess *
-        if player enters correct playerGuess
-            print : DARN you got it! It was Solution!
-            else
+        for until Solution === playerGuess or guessesLeft === 0   
+            if player enters correct playerGuess
+                    print : DARN you got it! It was Solution!
+                    print : You Win!
+                else
+                    print : HA! Try again!
+                    guessesLeft - 1
+                else
+                    guessesleft === 0
+                    print : SORRY GAME OVER!
+        Print : Press any Key to close.
+
 
 
         
