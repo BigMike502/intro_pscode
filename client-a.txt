@@ -36,13 +36,6 @@ Start Program
                     print : SORRY GAME OVER!
         Print : Press any Key to close.
 
-☺
-
-        
-        
-            
-    
-    Run RndGen Script
 
 
 
