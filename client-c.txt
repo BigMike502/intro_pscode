@@ -7,3 +7,22 @@
 **Task:** You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
 
 **Hint:** Loops
+
+    Variables   Item = 2
+                itemCount
+                caseCount
+
+    for Scan barcode itemCount = 50
+        
+        if item count is <= 50
+            item + itemCount = itemCount
+            command for robot to put item in case
+        else
+            robot close case
+            move case on belt and bring in new case
+            ++ casecount
+
+
+        
+
+
