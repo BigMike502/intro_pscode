@@ -19,7 +19,7 @@ Open Store application
         itemlocation = Item cords from itemDB of customerSearch
             for itemlocation === CustomerLocation
                 Look up store diagramDB to item location
-                give direction to item
+                give direction to itemlocation from customerLocation
                 if customer gets to item
                     display shelf item is on
                 else 
