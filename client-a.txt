@@ -19,18 +19,24 @@ Keep Everyting to ansi characters.
 
 
 Start Program
-    Command Prompt Opens on screen.
-        A Question Mark pops up in top center justified in screen.
-        Under Question mark it prints : Can you guess what number I am thinking about from 1 - 10?
-        Under that It prints : You will have tree chances to get it right.
-        Under that it will print : X-X-X *This is for the three chances*
+    open command prompt
+        Draw Question Mark in ancii code drawn characters
+        prints : Can you guess what number I am thinking about from 1 - 10?
+        prints : You will have tree chances to get it right.
+        prints : X-X-X *This is for the three chances*
             RndGen Script
-            variable Nmbr
-            variable Seed = current TimeDateValue
-                Plug the Seed into a Random Number Generator in code.
-                Tell the Random Number Generator to only select numbers between 1 and 10
-        Run RndGen and store in variable Solution
-        Bellow the XXX's you will see a prompt that will come up : Enter your guess : █
+                variable Nmbr
+                variable Seed = current TimeDateValue
+                    pass LangRandomNumGen into Seed with Range of 1 - 10
+        Variable Solution = RndGen
+        variable guessesLeft = 3
+        variable playerGuess
+        print : Enter your guess : █ * players guess with pass into playerGuess *
+        if player enters correct playerGuess
+            print : DARN you got it! It was Solution!
+            else
+
+
         
         
             
