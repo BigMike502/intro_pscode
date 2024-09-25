@@ -1,12 +1,4 @@
-# Client Task A #
-# Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
 
-### Task A: Guess the Number Game
-
-**Task:** Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
-
-**Hints:** Input/output, conditional logic
 
 Things to think about : 
 
