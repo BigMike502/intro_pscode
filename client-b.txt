@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+### Task B: Find the Spot
+
+**Task:** Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+
+**Hints:** Loops, Variables
